@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Introduction</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align majority of the text */
+        }
+        h1, h2, p, ul, ol, blockquote, footer {
+            text-align: center;
+        }
+        ul, ol {
+            margin: 20px auto;
+            padding: 20px;
+            display: inline-block;
+            text-align: left; /* Keep lists left-aligned for better readability */
+        }
+        ul li, ol li {
+            padding: 5px 0;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        .bio p {
+            font-size: 1.2em;
+        }
+        .fun-facts ul li {
+            font-size: 1.1em;
+        }
+        .quote {
+            font-style: italic;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 20px auto;
+            background-color: #fff;
+            display: inline-block;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #2c3e50;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+        .gallery img {
+            max-width: 100%;
+            margin: 10px auto;
+            display: block;
+        }
+        .about-me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .about-me img {
+            max-width: 200px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 10px 0;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>John Doe</h1>
+    <hr>
+    <p>Hello! I'm a student passionate about web development and design.</p>
+    <hr>
+
+    <section>
+        <h2>My Interests</h2>
+        <hr>
+        <ul>
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Music</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section class="bio">
+        <img src="profile.jpg" alt="Profile Picture">
+        <hr>
+        <p>I am a creative individual who loves to explore new technologies and turn ideas into reality.</p>
+        <hr>
+    </section>
+
+    <section>
+        <h2>My Favorite Foods</h2>
+        <hr>
+        <ol>
+            <li>Pizza</li>
+            <li>Sushi</li>
+            <li>Burgers</li>
+            <li>Ice Cream</li>
+            <li>Steak</li>
+        </ol>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <hr>
+        <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+        <hr>
+        <p>Phone: +123456789</p>
+        <hr>
+    </section>
+
+    <section class="fun-facts">
+        <h2>Fun Facts</h2>
+        <hr>
+        <ul>
+            <li>I have visited 15 countries.</li>
+            <li>I can play three musical instruments.</li>
+            <li>I once skydived from 10,000 feet!</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section>
+        <h2>My Favorite Video</h2>
+        <hr>
+        <iframe width="80%" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Audio Playlist</h2>
+        <hr>
+        <audio controls style="width: 60%;">
+            <source src="audiofile.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <hr>
+    </section>
+
+    <section class="social-links">
+        <h2>Social Media</h2>
+        <hr>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Favorite Quote</h2>
+        <hr>
+        <blockquote class="quote">"The best way to predict the future is to create it." - Peter Drucker</blockquote>
+        <hr>
+    </section>
+
+    <section class="gallery">
+        <h2>Image Gallery</h2>
+        <hr>
+        <img src="gallery1.jpg" alt="Image 1">
+        <hr>
+        <img src="gallery2.jpg" alt="Image 2">
+        <hr>
+        <img src="gallery3.jpg" alt="Image 3">
+        <hr>
+    </section>
+
+    <section class="about-me">
+        <img src="aboutme.jpg" alt="About Me">
+        <hr>
+        <p>Hello! I am a tech enthusiast and an explorer who loves to learn about various subjects, ranging from coding to music!</p>
+        <hr>
+    </section>
+
+    <footer>
+        &copy; 2025 John Doe
+    </footer>
+
+</body>
+</html>
